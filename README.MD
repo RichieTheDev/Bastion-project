@@ -1,4 +1,3 @@
-````markdown
 # Bastion Host Setup with Terraform
 
 This project provisions an AWS EC2 instance (bastion host) using Terraform. The bastion host will be configured with a custom security group, a key pair, and will have SSH access configured from allowed CIDR blocks. The setup also outputs the SSH command to access the bastion host and the public IP of the instance.
@@ -25,6 +24,7 @@ To generate a new SSH key pair for accessing the bastion host, run the following
 ```bash
 ssh-keygen -t rsa -b 4096 -f my-key
 ```
+
 ````
 
 This will create the private key `my-key` and public key `my-key.pub`.
@@ -78,3 +78,4 @@ terraform destroy
 ```
 
 This will terminate the EC2 instance and remove the security group and key pair.
+````
