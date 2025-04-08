@@ -17,6 +17,14 @@ Before you begin, ensure the following prerequisites are met:
 
 ## Terraform Configuration Overview
 
+### Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/RichieTheDev/Bastion-project.git
+```
+
 ### Key Pair Generation
 
 To generate a new SSH key pair for accessing the bastion host, run the following command:
