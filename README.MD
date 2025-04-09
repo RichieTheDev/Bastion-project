@@ -33,8 +33,6 @@ To generate a new SSH key pair for accessing the bastion host, run the following
 ssh-keygen -t rsa -b 4096 -f my-key
 ```
 
-````
-
 This will create the private key `my-key` and public key `my-key.pub`.
 
 ### Variables
@@ -86,4 +84,3 @@ terraform destroy
 ```
 
 This will terminate the EC2 instance and remove the security group and key pair.
-````
